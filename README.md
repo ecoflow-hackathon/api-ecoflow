@@ -1,11 +1,11 @@
-# **Cadeia de Produção de Cacau - API**
+# **Ecoflow - API**
 
 Esta API gerencia informações sobre a cadeia de produção de cacau, permitindo que produtores registrem dados relacionados a lotes e visualizem essas informações via QR Code.
 
 ## **Estrutura do Projeto**
 - **Produtores**: Representam os participantes da cadeia de produção.
 - **Lotes**: Identificam os lotes de produção de cacau.
-- **Informações de Produção**: Detalhes como o consumo de água e emissões de carbono associados a cada lote.
+- **Informações de Produção**: Detalhes como o consumo de água, emissões de carbono associados, etc a cada lote.
 
 ---
 
@@ -13,7 +13,7 @@ Esta API gerencia informações sobre a cadeia de produção de cacau, permitind
 1. Clone o repositório:
    ```bash
    git clone https://github.com/ecoflow-hackathon/api-ecoflow.git
-   cd api-ecoflow
+   cd api_ecoflow
 
 2. Crie um ambiente virtual:
    ```bash
