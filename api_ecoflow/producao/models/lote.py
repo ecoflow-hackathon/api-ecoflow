@@ -1,5 +1,8 @@
+from io import BytesIO
 from django.db import models
 from .produtor import Produtor
+import qrcode
+from django.core.files.base import ContentFile
 
 class Lote(models.Model):
     identificador = models.CharField(max_length=50, unique=True)
